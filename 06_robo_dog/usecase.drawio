@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="FXLQbVOzL8qcLXzDt_cl">
+        <mxGraphModel dx="1163" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="6PSJ0aaz2sJnb9yhWgYf-8" source="6PSJ0aaz2sJnb9yhWgYf-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="200" as="sourcePoint"/>
+                        <mxPoint x="370" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="6PSJ0aaz2sJnb9yhWgYf-10" source="6PSJ0aaz2sJnb9yhWgYf-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="210" as="sourcePoint"/>
+                        <mxPoint x="370" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PSJ0aaz2sJnb9yhWgYf-2" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="220" as="sourcePoint"/>
+                        <mxPoint x="265" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;RoboDog&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="80" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-2" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="170" width="40" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="80" width="320" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-7" value="システム内部" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="100" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="370" y="200" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-10" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-11" value="学術論文を登録する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+                    <mxGeometry x="55" y="10" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="370" y="140" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-8" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="3" vertex="1">
+                    <mxGeometry width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6PSJ0aaz2sJnb9yhWgYf-9" value="学生情報を登録する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3" vertex="1">
+                    <mxGeometry x="55" y="10" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="370" y="260" width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                    <mxGeometry width="240" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="足し算をする" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="70" y="10" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
