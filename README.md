@@ -7,7 +7,6 @@
 - [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
 - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
-
 # フォルダの使い方
 - personal: 自習用。好きに使用してOK → banshoとか作って、スクショフォルダとして使うといいかも
 - group: グループでの作業用。好きに使用してOK
