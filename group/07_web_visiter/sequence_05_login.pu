@@ -1,0 +1,60 @@
+sequence_05_login.pu
+ 
+@startuml Web訪問者システム-ログイン機能シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+ 
+actor 訪問者 as A
+boundary メニュー画面 as B1
+boundary ログイン画面 as B2
+boundary 訪問者一覧画面 as B3
+control 入力内容確認 as C1
+control 認証処理 as C2
+entity 訪問者情報 as E
+ 
+A -> B1: 「ログイン」を選択()
+activate B1
+ 
+B1 -> B2: ログイン画面を表示()
+deactivate B1
+activate B2
+ 
+A -> B2: ユーザーID、パスワードを入力・送信()
+ 
+B2 -> C1: 入力内容確認()
+activate C1
+ 
+opt 入力内容に不備がある
+    C1 -> B2: エラーメッセージを表示()
+    note right of B2
+     ユーザーID、パスワードは正しく入力してください
+    end note
+end
+ 
+C1 -> C2: 認証を要求()
+deactivate C1
+activate C2
+ 
+C2 -> E: 訪問者情報を照会()
+activate E
+ 
+E --> C2: 訪問者情報
+deactivate E
+ 
+opt 認証失敗
+    C2 -> B2: エラーメッセージを表示()
+    note right of B2
+     ユーザーIDまたはパスワードが
+     間違っています。
+    end note
+end
+ 
+' 認証成功
+C2 -> B3: 訪問者一覧画面を表示()
+deactivate C2
+deactivate B2
+activate B3
+ 
+@enduml

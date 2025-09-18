@@ -1,0 +1,21 @@
+@startuml ロバストネス図
+skinparam componentStyle rectangle
+left to right direction
+
+actor 訪問者
+boundary "登録画面"
+control "登録処理"
+entity "訪問者情報"
+entity "認証情報"
+
+訪問者 -> "登録画面" : ユーザ情報を入力
+"登録画面" -> "登録処理" : 登録要求
+"登録処理" -> "認証情報" : ユーザID・パスワードの保存
+"登録処理" -> "訪問者情報" : 名前・学校名などの保存
+"登録処理" --> "登録画面" : 登録結果を返す
+"登録画面" --> 訪問者 : 完了メッセージ表示
+
+note as UC
+ユースケース: 新規訪問者登録
+end note
+@enduml
